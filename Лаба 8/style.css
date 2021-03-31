@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  padding-top: 25px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 300px;
+}
+
+.output {
+  display: block;
+  width: 300px;
+  height: 40px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: yellowgreen;
+}
+
+.underline {
+  text-decoration: underline;
+}
